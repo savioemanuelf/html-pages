@@ -71,7 +71,6 @@ article {
 
 article > h2 {
     color: #2E294E;
-    background-color: azure;
     font-weight: bolder;
     font-family: 'Courier New', Courier, monospace;
     padding-left: 15px;
@@ -83,9 +82,13 @@ article > p {
     padding: 5px 15px 5px 15px;
 }
 
+article > p > a {
+    color: #2E294E;
+    font-weight: bolder;
+}
 
 aside {
-    background-color: #00A6FB;
+    background-color: #5b9dbe;
     border-radius: 10px 10px 15px 15px;
     margin: 5px 15px 5px 15px;
     box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.444);   
@@ -117,8 +120,8 @@ aside > ul > li > a{
 }
 
 aside > ul > li > a:hover{
+    color: #2E294E;
     text-decoration: underline;
-
 }
 
 img {
@@ -127,6 +130,7 @@ img {
 }
 
 footer {
+    margin-top: 10px;
     text-align: center;
     background-color: #2E294E;
     color: white;
@@ -140,4 +144,10 @@ footer > a{
 
 footer > a:hover{
     text-decoration: underline;
+}
+
+.legenda {
+    color: #2E294E;
+    font-size: 12px;
+    text-align: center;
 }
