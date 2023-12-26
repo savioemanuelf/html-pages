@@ -1,0 +1,143 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-image: linear-gradient(to top, #2E294E, #00A6FB);
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+header > h1{
+    font-size: 36px;
+    font-family: 'Pixelify Sans';
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+header > p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav {
+    background-color: #2E294E;
+    padding-bottom: 5px;    
+    padding-left: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.384);
+}
+
+nav > a {
+    color: white;
+    padding-right: 15px;
+}
+
+nav > a:hover {
+    font-weight: bolder;
+    background-color: white;
+    color: #2E294E;
+    padding: 8px;
+    transition: 0.3s;
+}
+
+#autor {
+    font-size: 10px;
+    text-align: left;
+    padding-left: 0px;
+    padding-top: 10px;
+}
+
+article {
+    background-color: white;
+    max-width: 1200px;
+    margin: auto;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.464);
+}
+
+article > h2 {
+    color: #2E294E;
+    background-color: azure;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 15px;
+}
+
+article > p {
+    text-indent: 30px;
+    text-align: justify;
+    padding: 5px 15px 5px 15px;
+}
+
+
+aside {
+    background-color: #00A6FB;
+    border-radius: 10px 10px 15px 15px;
+    margin: 5px 15px 5px 15px;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.444);   
+}
+
+aside > h2{
+    color: white;
+    padding-left: 15px;
+    background-color: #2E294E;
+    border-radius: 10px 10px 0px 0px;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+}
+aside > ul {
+    columns: 2;
+    list-style: inside;
+    padding-left: 15px;
+    
+}
+
+aside > ul > li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+aside > ul > li > a{
+    color: white;
+    font-weight: bold;
+}
+
+aside > ul > li > a:hover{
+    text-decoration: underline;
+
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    background-color: #2E294E;
+    color: white;
+    box-shadow: 0px 0px 5px rrgba(0, 0, 0, 0.434)
+}
+
+footer > a{
+    color: white;
+    font-weight: bolder;
+}
+
+footer > a:hover{
+    text-decoration: underline;
+}
