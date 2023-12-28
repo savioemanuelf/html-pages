@@ -110,10 +110,20 @@ button {
     color: white;
 }
 
+#cadastro > p > a {
+    color: white;
+    font-weight: bolder;
+}
+
+#cadastro > p > a:hover{
+    color: lightgray;
+}
+
 footer {
+    font-weight: bolder;
     font-size: 0.8em;
     text-align: center;
-    margin: 150px 20px 5px 20px;
+    margin: 150px 20px 5px 20px;   
 }
 
 nav > a{
