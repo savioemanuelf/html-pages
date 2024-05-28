@@ -4,10 +4,10 @@ This repository contains a collection of web pages created for educational purpo
 
 ## Pages
 
-1. **Instagram Login Page**
+1. **1. **[Instagram Login Page](https://savioemanuelf.github.io/html-pages/pages/instagram-concept)**
    - *Description:* An Instagram login page concept.
 
-2. **FuturizeTech**
+2. **[FuturizeTech](https://savioemanuelf.github.io/html-pages/pages/instagram-concept/)**
    - *Description:* A fictional blog page about Curso em Video.
 
 Feel free to explore each page's folder for more details and the source code. 
